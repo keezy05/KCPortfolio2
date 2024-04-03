@@ -270,23 +270,23 @@ nav {
 
 .image {
 	margin: auto 0;
-	width: 380px;
-	height: 380px;
-	border-radius: 55% 45% 55% 45%;
+	width: 500px;
+	height: 500px;
+	border-radius: 75% 60% 75% 60%;
 	overflow: hidden;
 	animation: imgFloat 7s ease-in-out infinite;
 }
 
 .image img {
-	width: 380px;
-	height: 380px;
+	width: 500px;
+	height: 500px;
 	object-fit: cover;
 }
 
 @keyframes imgFloat {
 	50%{
 		transform: translateY(10px);
-		border-radius: 45% 55% 45% 55%;
+		border-radius: 75% 60% 75% 60%;
 	}
 }
 
