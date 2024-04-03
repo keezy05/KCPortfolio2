@@ -214,6 +214,7 @@ nav {
 .typedText {
 	text-transform: capitalize;
 	color: var(--first-color);
+	
 }
 
 .featured-text-info {
